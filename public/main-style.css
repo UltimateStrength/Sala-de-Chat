@@ -1,0 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/lilita-one');
+
+/* CSSs Linkados */
+@import url("/public/assets/styles/app.css");
+@import url("/public/assets/styles/screen.css");
+@import url("/public/assets/styles/chat-screen.css");
+@import url("/public/assets/styles/hovers.css");
+@import url("/public/assets/styles/options.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lilita One', Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}

@@ -5,22 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/main-style.css">
+    <link rel="stylesheet" href="/assets/styles/app.css">
+    <link rel="stylesheet" href="/assets/styles/screen.css">
+    <link rel="stylesheet" href="/assets/styles/chat-screen.css">
+    <link rel="stylesheet" href="/assets/styles/hovers.css">
+
     <link href="https://fonts.cdnfonts.com/css/lilita-one" rel="stylesheet">
 
-    <!-- <link rel="icon" href="logodosite"> -->
-    <title>Início | Mensageiro</title>
+    <link rel="icon" href="https://i.imgur.com/zulobNZ.png">
+    <title>Início | UltiChat</title>
 
 </head>
 <body>
-    
+
     <div class="app">
         <div class="screen join-screen active">
             <div class="form">
-                <h2>Bate-Papo</h2>
+                <h2>Bem-Vindo ao UltiChat <img src="https://i.imgur.com/zulobNZ.png" style="width: 10%; vertical-align: -9px;"> !</h2>
                 <div class="form-input">
-                    <label>Usuário</label>
-                    <input type="text" id="username">
+                    <input type="text" id="username" placeholder="Usuário">
+                    <input type="password" id="password" placeholder="Senha">
                 </div>
                 <div class="form-input">
                     <button id="join-user">Entrar</button>
@@ -29,20 +34,23 @@
         </div>
         <div class="screen chat-screen">
             <div class="header">
-                <div class="logo">Bate-Papo</div>
-                <button id="exit-chat">Sair</button>
+                <div class="logo"> <p style="display: flex; align-items: center;"> <img src="https://i.imgur.com/zulobNZ.png" style="width: 5%; display: flex;"> ⠀UltiChat | Bate-Papo Geral</p></div>
+                <button id="exit-chat" title="Sair do Bate-Papo"><img src="https://i.imgur.com/ePlJ1oM.png" style="width: 70%;"></button>
             </div>
             <div class="messages">
-                </div>
+            </div>
             <div class="typebox">
+                <button for="image-input" id="select-image" title="Enviar Imagem"><img src="https://i.imgur.com/cTgxRpl.png" style="width: 50%;"></button>
+                <input type="file" name="image-input" id="image-input" accept="image/jpeg, image/png">
                 <input type="text" id="message-input">
-                <button id="send-message">Enviar</button>
+                <button id="send-message" title="Enviar Mensagem"><img src="https://i.imgur.com/KQ24scD.png" style="width: 50%;"></button>
             </div>
         </div>
     </div>
 
-    <script type="text/javascript" src="socket.io/socket.io.js"></script>
-    <script type="text/javascript" src="code.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/assets/scripts/main-code.js"></script>
+    <script type="text/javascript" src="/assets/scripts/inspect-block-filter.js"></script>
 
 </body>
 </html>

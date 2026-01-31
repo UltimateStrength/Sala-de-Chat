@@ -1,0 +1,46 @@
+.screen .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+}
+
+.screen .form-input {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.screen h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #111111;
+    border-bottom: 4px solid #444444;
+    padding: 5px 0px;
+    display: inline-block;
+}
+
+.screen .form-input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.screen .form-input input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #555555;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.screen .form-input button {
+    padding: 10px 20px;
+    background: #111111;
+    color: #eeeeee;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
