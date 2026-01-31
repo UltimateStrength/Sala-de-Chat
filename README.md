@@ -5,9 +5,9 @@ Um chat em tempo real desenvolvido com **Node.js**, **Express** e **Socket.IO**,
 O projeto evoluiu de um chat restrito a `localhost` para uma aplicação **online**, acessível por qualquer pessoa através de um **link público**, sem necessidade de estar na mesma rede.
 
 Para acessar utilize <a href="sala-de-chat.onrender.com/" target="_blank" rel="noopener noreferrer">
-  este link 👾
+  este link
 </a>
-
+👾
 ---
 
 ## 🚀 Principais Funcionalidades
